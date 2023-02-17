@@ -1,1 +1,1 @@
-project on arithmetic operators and their usage
+learning arithmetic operators and how to use them
