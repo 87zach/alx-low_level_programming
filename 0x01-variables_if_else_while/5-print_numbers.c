@@ -1,7 +1,8 @@
-#include
+#include <stdio.h>
+
 /**
  * main - Prints alpha in lower and upper case
- *
+ * followed by a new line
  * Return: Always 0
  */
 int main(void)
