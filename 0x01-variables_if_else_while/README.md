@@ -1,1 +1,1 @@
-learning arithmetic operators and how to use them
+arithmetic operators and how to use them
