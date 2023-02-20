@@ -1,19 +1,25 @@
-#include
-
+#include <stdio.h>
 /**
- * main
- *
+ * main - Prints the alphabet in lowercase, and then in uppercase
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char c = 'a';
 
-	for  9i =0; i < 26; i++
+	while (c <= 'z')
 	{
-		putchar(alp[i]);
+		putchar(c);
+		c++;
 	}
-	putchar('\n');
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++
+	}
+	putchar('n\');
 	return (0);
 }
