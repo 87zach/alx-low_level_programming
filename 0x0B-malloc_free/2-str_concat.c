@@ -13,23 +13,23 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-  int i, j, len1, len2, len;
-  char *result;
+int i, j, len1, len2, len;
+char *result;
 
-  len1 = len2 = 0;
+len1 = len2 = 0;
 
-  if (s1 != NULL)
+if (s1 != NULL)
   {
      i = 0;
      while (s1[i++] != '\0')
-        len1++;
+ 	len1++;
   }
 
   if (s2 != NULL)
   {
      i = 0;
      while (s2[i++] != '\0')
-        len2++;
+	len2++;
   }
 
   len = len1 + len2;
