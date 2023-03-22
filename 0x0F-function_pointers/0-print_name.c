@@ -1,4 +1,3 @@
-
 #include "function_pointers.h"
 	#include <stdio.h>
 	/**
@@ -15,6 +14,5 @@
 
 		f(name);
 	}
-
 
 
